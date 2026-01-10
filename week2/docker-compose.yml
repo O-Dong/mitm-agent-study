@@ -1,0 +1,46 @@
+version: "3.8"
+
+services:
+  # Tool Server
+  tool_server:
+    build:
+      context: ./tool_server
+      dockerfile: Dockerfile
+    container_name: tool_server
+    ports:
+      - "5002:5002"
+    volumes:
+      - ./data:/data
+    networks:
+      - agent_network
+
+  # Agent B
+  agent_b:
+    build:
+      context: ./agent_b
+      dockerfile: Dockerfile
+    container_name: agent_b
+    ports:
+      - "5001:5001"
+    depends_on:
+      - tool_server
+    networks:
+      - agent_network
+
+  # Agent A
+  agent_a:
+    build:
+      context: ./agent_a
+      dockerfile: Dockerfile
+    container_name: agent_a
+    environment:
+      - PROMPT=Say hello to me
+      - AGENT_B_URL=http://agent_b:5001/process
+    depends_on:
+      - agent_b
+    networks:
+      - agent_network
+
+networks:
+  agent_network:
+    driver: bridge
