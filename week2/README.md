@@ -1,5 +1,7 @@
 # Week 2: Multi-Agent MITM Threat Analysis
 
+[Week 2: Multi-Agent MITM 위협 분석 - 티스토리](https://odongdong.tistory.com/123)
+
 멀티 에이전트 구조에서 에이전트 간 HTTP 평문 통신을 관찰하고,
 에이전트의 내부 처리 과정(prompt / tool-call / response)이 네트워크 메시지로 어떻게 노출되는지 확인하는 실습입니다.
 
@@ -9,10 +11,6 @@
 - Agent 내부 처리 흐름과 네트워크 메시지의 대응 관계 이해
 - HTTP payload 내 JSON 필드 의미 분석
 - Prompt 변경에 따른 tool-call 변화 관찰
-
-### 핵심 인사이트
-
-> 에이전트가 다른 구성요소와 상호작용하기 위해 네트워크 경계를 넘어 메시지를 전달하는 경우, 그 순간의 상호작용은 결국 네트워크 통신이다.
 
 ## 프로젝트 구조
 
