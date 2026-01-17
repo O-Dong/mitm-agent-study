@@ -123,7 +123,7 @@ Host: 127.0.0.1:5002
 ### 3. Repeater를 통한 변조 테스트
 
 ![Repeater Modification](screenshots/3_repeater_modification.png)
-![Repeater Modification](screenshots/4_repeater_modification.png)
+![Repeater Modification](screenshots/4_repeater_modification1.png)
 
 **변조 방법:**
 
