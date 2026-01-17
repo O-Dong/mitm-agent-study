@@ -1,0 +1,4 @@
+admin:superSecretPassword123
+root:toor
+user:password
+database_key:a8f3k2l9m4n7p1q5

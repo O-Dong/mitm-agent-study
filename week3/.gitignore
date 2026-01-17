@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 환경 변수
+.env
+*.key
+*.pem
+*secret*
+*password*
+
+# 패킷 캡처 파일
+*.pcap
+*.pcapng
+
+# 데이터베이스
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# 임시 파일
+*.tmp
+*.log
+*.bak
