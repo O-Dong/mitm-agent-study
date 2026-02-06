@@ -1,0 +1,71 @@
+2026-02-06 00:54:08,152 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-06 00:54:08,152 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-06 00:54:08,154 - INFO -  * Restarting with stat
+2026-02-06 00:54:08,415 - WARNING -  * Debugger is active!
+2026-02-06 00:54:08,430 - INFO -  * Debugger PIN: 139-390-654
+2026-02-06 00:56:18,159 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-06 00:56:18,160 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-06 00:56:18,162 - INFO -  * Restarting with stat
+2026-02-06 00:56:18,431 - WARNING -  * Debugger is active!
+2026-02-06 00:56:18,435 - INFO -  * Debugger PIN: 139-390-654
+2026-02-06 00:56:31,491 - INFO -  * Detected change in 'C:\\Users\\LeeSeongEun\\Documents\\agent-http\\week4\\tool_server.py', reloading
+2026-02-06 00:56:31,522 - INFO -  * Restarting with stat
+2026-02-06 00:56:31,831 - WARNING -  * Debugger is active!
+2026-02-06 00:56:31,836 - INFO -  * Debugger PIN: 139-390-654
+2026-02-06 00:57:41,751 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-06 00:57:41,752 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-06 00:57:41,753 - INFO -  * Restarting with stat
+2026-02-06 00:57:42,014 - WARNING -  * Debugger is active!
+2026-02-06 00:57:42,019 - INFO -  * Debugger PIN: 139-390-654
+2026-02-06 00:58:36,336 - INFO - [389d5ca1] Balance Request - User: Bob
+2026-02-06 00:58:36,337 - INFO - [389d5ca1] Response Hash: 5907329789aced0d...
+2026-02-06 00:58:36,337 - INFO - 127.0.0.1 - - [06/Feb/2026 00:58:36] "GET /api/balance?user=Bob HTTP/1.1" 200 -
+2026-02-06 00:58:36,377 - INFO - [07643435] Transfer Request - Sender: Bob, Recipient: Alice, Amount: 100000
+2026-02-06 00:58:36,377 - INFO - [07643435] Response Hash: 3514fd5238bac043...
+2026-02-06 00:58:36,378 - INFO - 127.0.0.1 - - [06/Feb/2026 00:58:36] "POST /api/transfer HTTP/1.1" 200 -
+2026-02-06 00:59:55,517 - INFO -  * Detected change in 'C:\\Users\\LeeSeongEun\\Documents\\agent-http\\week4\\agent_b.py', reloading
+2026-02-06 00:59:55,546 - INFO -  * Restarting with stat
+2026-02-06 00:59:55,840 - WARNING -  * Debugger is active!
+2026-02-06 00:59:55,847 - INFO -  * Debugger PIN: 139-390-654
+2026-02-06 00:59:58,987 - INFO - [92032efd] Balance Request - User: Bob
+2026-02-06 00:59:58,987 - INFO - [92032efd] Response Hash: 624631d58a0a89f9...
+2026-02-06 00:59:58,988 - INFO - 127.0.0.1 - - [06/Feb/2026 00:59:58] "GET /api/balance?user=Bob HTTP/1.1" 200 -
+2026-02-06 00:59:58,992 - INFO - [3fa3a81b] Transfer Request - Sender: Bob, Recipient: Alice, Amount: 100000
+2026-02-06 00:59:58,993 - INFO - [3fa3a81b] Response Hash: c0629cff56f484a9...
+2026-02-06 00:59:58,993 - INFO - 127.0.0.1 - - [06/Feb/2026 00:59:58] "POST /api/transfer HTTP/1.1" 200 -
+2026-02-06 11:17:32,455 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-06 11:17:32,456 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-06 11:17:32,457 - INFO -  * Restarting with stat
+2026-02-06 11:17:32,804 - WARNING -  * Debugger is active!
+2026-02-06 11:17:32,819 - INFO -  * Debugger PIN: 139-390-654
+2026-02-06 11:19:05,969 - INFO - [f9f922c8] Balance Request - User: Bob
+2026-02-06 11:19:05,971 - INFO - [f9f922c8] Response Hash: 0f49c7802f728f1c...
+2026-02-06 11:19:05,972 - INFO - 127.0.0.1 - - [06/Feb/2026 11:19:05] "GET /api/balance?user=Bob HTTP/1.1" 200 -
+2026-02-06 11:19:12,210 - INFO - [e31beeb6] Balance Request - User: Alice
+2026-02-06 11:19:12,211 - INFO - [e31beeb6] Response Hash: afc3d1ccbaf567a9...
+2026-02-06 11:19:12,213 - INFO - 127.0.0.1 - - [06/Feb/2026 11:19:12] "GET /api/balance?user=Alice HTTP/1.1" 200 -
+2026-02-06 11:19:19,825 - INFO - [4ef6915a] Transfer Request - Sender: Bob, Recipient: Alice, Amount: 100000
+2026-02-06 11:19:19,826 - INFO - [4ef6915a] Response Hash: 30dffc7b01397408...
+2026-02-06 11:19:19,827 - INFO - 127.0.0.1 - - [06/Feb/2026 11:19:19] "POST /api/transfer HTTP/1.1" 200 -
+2026-02-06 11:19:26,682 - INFO - [0c2e85e4] Balance Request - User: Charlie
+2026-02-06 11:19:26,683 - INFO - [0c2e85e4] Response Hash: 77228f9bc38afe2d...
+2026-02-06 11:19:26,685 - INFO - 127.0.0.1 - - [06/Feb/2026 11:19:26] "GET /api/balance?user=Charlie HTTP/1.1" 200 -
+2026-02-06 12:13:43,954 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-06 12:13:43,955 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-06 12:13:43,957 - INFO -  * Restarting with stat
+2026-02-06 12:13:44,370 - WARNING -  * Debugger is active!
+2026-02-06 12:13:44,388 - INFO -  * Debugger PIN: 139-390-654
+2026-02-06 12:17:46,402 - INFO - [a4a189e5] Balance Request - User: Bob
+2026-02-06 12:17:46,403 - INFO - [a4a189e5] Response Hash: 19b307c21b58f85a...
+2026-02-06 12:17:46,404 - INFO - 127.0.0.1 - - [06/Feb/2026 12:17:46] "GET /api/balance?user=Bob HTTP/1.1" 200 -
+2026-02-06 12:18:27,795 - INFO - [a5300f3a] Balance Request - User: Alice
+2026-02-06 12:18:27,796 - INFO - [a5300f3a] Response Hash: b0c7625c698800d0...
+2026-02-06 12:18:27,797 - INFO - 127.0.0.1 - - [06/Feb/2026 12:18:27] "GET /api/balance?user=Alice HTTP/1.1" 200 -
+2026-02-06 12:20:29,132 - INFO - [1a3af989] Transfer Request - Sender: Bob, Recipient: Alice, Amount: 100000
+2026-02-06 12:20:29,133 - INFO - [1a3af989] Response Hash: 04ec9612df735568...
+2026-02-06 12:20:29,134 - INFO - 127.0.0.1 - - [06/Feb/2026 12:20:29] "POST /api/transfer HTTP/1.1" 200 -
